@@ -21,7 +21,8 @@ def print_debug(s):
 
 
 while True: 
-    if day != date.today():
+    #if day != date.today():
+        time.sleep(60)
         print_debug("NEW DAY")
         for streamer in streamer_obj:
             streamer.end_count(day.strftime("%Y-%m-%d"))

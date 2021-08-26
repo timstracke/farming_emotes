@@ -5,6 +5,7 @@ export const Wrapper = styled.div`
     background: linear-gradient(90deg, rgba(81,0,107,1) 0%, rgba(172,49,213,1) 50%, rgba(199,79,255,1) 100%);
     padding: 20px;
     font-family: Arial;
+    text-decoration: none;
 `;
 
 export const Content = styled.div`

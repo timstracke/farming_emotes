@@ -8,13 +8,13 @@ import { Wrapper, Content } from './Header.styles';
 const Header = () => (
     <Wrapper>
         <Content>
-            <Link to='/' class="header-btn">
+            <Link to='/' className="header-btn">
                 farming emotes
             </Link>
-            <Link to='/' class="header-btn">
+            <Link to='/streamers' className="header-btn">
                 streamers
             </Link>
-            <Link to='/' class="header-btn">
+            <Link to='/' className="header-btn">
                 emotes
             </Link>
             <a target="_blank" href="https://www.twitch.tv/" rel="noreferrer">
